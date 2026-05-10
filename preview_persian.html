@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>波斯猫效果预览</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;display:flex;align-items:center;justify-content:center;margin:0;padding:20px;box-sizing:border-box}
+.card{background:#fff;border-radius:24px;padding:32px;max-width:340px;width:100%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.badge{display:inline-block;padding:6px 16px;border-radius:20px;font-size:12px;font-weight:700;color:#fff;background:linear-gradient(135deg,#CE93D8,#AB47BC);margin-bottom:12px}
+.rarity{display:inline-block;padding:4px 14px;border-radius:20px;font-size:11px;font-weight:700;margin-bottom:10px;letter-spacing:1px;background:linear-gradient(135deg,#FFF9C4,#FFE082,#FFD54F);color:#E65100;animation:glow 2s ease-in-out infinite;box-shadow:0 0 12px rgba(255,193,7,.4)}
+@keyframes glow{0%,100%{box-shadow:0 0 12px rgba(255,193,7,.4)}50%{box-shadow:0 0 24px rgba(255,193,7,.8)}}
+.rarity-desc{font-size:11px;color:#aaa;margin-bottom:12px;font-style:italic}
+.cat-img{width:120px;height:120px;border-radius:50%;margin:0 auto 12px;background:#f5f5f5;box-shadow:0 0 0 3px #FFD54F,0 0 20px rgba(255,193,7,.4);animation:imgGlow 2s ease-in-out infinite;display:flex;align-items:center;justify-content:center;font-size:60px}
+@keyframes imgGlow{0%,100%{box-shadow:0 0 0 3px #FFD54F,0 0 20px rgba(255,193,7,.4)}50%{box-shadow:0 0 0 4px #FFD54F,0 0 30px rgba(255,193,7,.6)}}
+.name{font-size:22px;font-weight:700;color:#333;margin:0 0 8px}
+.desc{font-size:14px;color:#666;line-height:1.6;margin:0}
+.traits{margin:16px 0}
+.trait{display:inline-block;padding:4px 10px;border-radius:12px;font-size:11px;margin:3px}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="badge">气质担当</div>
+  <div class="rarity">🌈 传说</div>
+  <p class="rarity-desc">🔥 超稀有！不到3%的人才能获得，你太特别了！</p>
+  <div class="cat-img">🐱</div>
+  <h2 class="name">波斯猫型 · 优雅小贵族</h2>
+  <p class="desc">你就像一只高贵的波斯猫，举手投足间自带优雅气质。你注重生活品质，追求内心的宁静与美好。</p>
+  <div class="traits">
+    <span class="trait" style="background:#F3E5F5;color:#9C27B0">优雅从容</span>
+    <span class="trait" style="background:#FFF0E6;color:#E68A00">品味不凡</span>
+    <span class="trait" style="background:#E8F4FD;color:#4A90D9">内心宁静</span>
+    <span class="trait" style="background:#E6F8EA;color:#4CAF50">注重细节</span>
+  </div>
+</div>
+</body>
+</html>
